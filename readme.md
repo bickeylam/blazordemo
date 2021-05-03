@@ -23,3 +23,6 @@ git branch gh-pages
 git checkout gh-pages
 git push --set-upstream origin gh-pages
 ```
+
+## Modify .csproj
+adding `<BlazorCacheBootResources>false</BlazorCacheBootResources>` to .csproj in `PropertyGroup` section
